@@ -4,13 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/blang/semver"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
-	swagger36 "github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
-	"github.com/vmware/go-vcloud-director/v2/govcd"
 	"io"
 	"net/http"
 	"strings"
+
+	"github.com/blang/semver"
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
+	swagger36 "github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
+	"github.com/vmware/go-vcloud-director/v2/govcd"
 )
 
 const (

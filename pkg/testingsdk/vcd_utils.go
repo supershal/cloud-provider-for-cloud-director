@@ -3,8 +3,9 @@ package testingsdk
 import (
 	"context"
 	"fmt"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
-	swaggerClient "github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
+
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
+	swaggerClient "github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
 	"github.com/vmware/go-vcloud-director/v2/types/v56"
 )
 

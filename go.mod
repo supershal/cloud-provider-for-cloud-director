@@ -1,4 +1,4 @@
-module github.com/vmware/cloud-provider-for-cloud-director
+module github.com/supershal/cloud-provider-for-cloud-director
 
 go 1.19
 

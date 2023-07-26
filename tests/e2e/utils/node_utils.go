@@ -3,12 +3,13 @@ package utils
 import (
 	"context"
 	"fmt"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/testingsdk"
+	"time"
+
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/testingsdk"
 	v1 "k8s.io/api/core/v1"
 	apierrs "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"time"
 )
 
 const (

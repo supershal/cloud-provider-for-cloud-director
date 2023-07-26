@@ -1,15 +1,16 @@
 /*
-   Copyright 2021 VMware, Inc.
-   SPDX-License-Identifier: Apache-2.0
+Copyright 2021 VMware, Inc.
+SPDX-License-Identifier: Apache-2.0
 */
 package cpisdk
 
 import (
 	"fmt"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/config"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
 	"os"
 	"path/filepath"
+
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/config"
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
 )
 
 // NOTE: The test util functions in vcdsdk/common_system_test.go are being replicated in this file

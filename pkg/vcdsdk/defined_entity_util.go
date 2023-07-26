@@ -2,7 +2,8 @@ package vcdsdk
 
 import (
 	"fmt"
-	swaggerClient "github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
+
+	swaggerClient "github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
 )
 
 type CapvcdRdeFoundError struct {

@@ -4,19 +4,20 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/antihax/optional"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
-	swaggerClient "github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
-	"github.com/vmware/cloud-provider-for-cloud-director/release"
-	"github.com/vmware/go-vcloud-director/v2/govcd"
 	"io/ioutil"
-	"k8s.io/apimachinery/pkg/util/yaml"
 	"net/http"
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/antihax/optional"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
+	swaggerClient "github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
+	"github.com/supershal/cloud-provider-for-cloud-director/release"
+	"github.com/vmware/go-vcloud-director/v2/govcd"
+	"k8s.io/apimachinery/pkg/util/yaml"
 )
 
 const (

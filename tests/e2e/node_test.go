@@ -3,11 +3,12 @@ package e2e
 import (
 	"context"
 	"fmt"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/testingsdk"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
-	"github.com/vmware/cloud-provider-for-cloud-director/tests/e2e/utils"
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/testingsdk"
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
+	"github.com/supershal/cloud-provider-for-cloud-director/tests/e2e/utils"
 	v1 "k8s.io/api/core/v1"
 )
 

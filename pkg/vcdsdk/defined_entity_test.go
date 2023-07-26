@@ -4,13 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-	swaggerClient "github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
-	"github.com/vmware/go-vcloud-director/v2/govcd"
 	"net/http"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	swaggerClient "github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
+	"github.com/vmware/go-vcloud-director/v2/govcd"
 )
 
 const (

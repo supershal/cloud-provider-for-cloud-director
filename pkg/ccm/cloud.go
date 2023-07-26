@@ -12,16 +12,17 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/config"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/cpisdk"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
-	"github.com/vmware/cloud-provider-for-cloud-director/release"
 	"io"
+	"time"
+
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/config"
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/cpisdk"
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
+	"github.com/supershal/cloud-provider-for-cloud-director/release"
 	"k8s.io/client-go/informers"
 	_ "k8s.io/client-go/tools/clientcmd"
 	cloudProvider "k8s.io/cloud-provider"
 	"k8s.io/klog"
-	"time"
 )
 
 // ProviderName : name of the cloud provider

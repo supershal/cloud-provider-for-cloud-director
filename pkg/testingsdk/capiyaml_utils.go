@@ -5,9 +5,10 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
-	swaggerClient "github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
 	"io"
+
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
+	swaggerClient "github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	k8syaml "k8s.io/apimachinery/pkg/util/yaml"
 )

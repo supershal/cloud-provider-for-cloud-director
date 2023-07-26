@@ -7,13 +7,14 @@ package config
 
 import (
 	"fmt"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
-	yaml "gopkg.in/yaml.v2"
 	"io"
 	"io/ioutil"
-	"k8s.io/klog"
 	"os"
 	"strings"
+
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
+	yaml "gopkg.in/yaml.v2"
+	"k8s.io/klog"
 )
 
 // VCDConfig :

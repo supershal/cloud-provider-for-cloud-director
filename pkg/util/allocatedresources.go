@@ -1,8 +1,9 @@
 package util
 
 import (
-	swaggerClient "github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
 	"sync"
+
+	swaggerClient "github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
 )
 
 type AllocatedResourcesMap struct {

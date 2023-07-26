@@ -3,8 +3,9 @@ package utils
 import (
 	"context"
 	"fmt"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/testingsdk"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
+
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/testingsdk"
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
 )
 
 func IsExternalIpInVCDResourceSet(ctx context.Context, tc *testingsdk.TestClient, externalIp string) (bool, error) {

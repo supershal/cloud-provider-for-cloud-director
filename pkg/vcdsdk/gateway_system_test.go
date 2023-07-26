@@ -8,16 +8,17 @@ package vcdsdk
 import (
 	"context"
 	"fmt"
-	"github.com/google/uuid"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/util"
-	swaggerClient "github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
-	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/google/uuid"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/util"
+	swaggerClient "github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
+	"gopkg.in/yaml.v2"
 )
 
 const BusyRetries = 5

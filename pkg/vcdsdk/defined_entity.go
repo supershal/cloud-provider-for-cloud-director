@@ -4,13 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	swaggerClient "github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
-	"k8s.io/klog"
 	"net/http"
 	"net/url"
 	"reflect"
 	"strings"
 	"time"
+
+	swaggerClient "github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdswaggerclient_36_0"
+	"k8s.io/klog"
 )
 
 const (

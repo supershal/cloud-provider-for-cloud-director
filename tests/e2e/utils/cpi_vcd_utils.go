@@ -3,12 +3,13 @@ package utils
 import (
 	"context"
 	"fmt"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/testingsdk"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
+	"strings"
+
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/testingsdk"
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
 	"github.com/vmware/go-vcloud-director/v2/govcd"
 	"github.com/vmware/go-vcloud-director/v2/types/v56"
 	v1 "k8s.io/api/core/v1"
-	"strings"
 )
 
 func NewTestClient(host, org, userOrg, vdcName, username, token, clusterId string, getVdcClient bool) (*testingsdk.TestClient, error) {

@@ -3,7 +3,8 @@ package testingsdk
 import (
 	"context"
 	"fmt"
-	"github.com/vmware/cloud-provider-for-cloud-director/pkg/vcdsdk"
+
+	"github.com/supershal/cloud-provider-for-cloud-director/pkg/vcdsdk"
 	"gopkg.in/yaml.v3"
 	appsv1 "k8s.io/api/apps/v1"
 	apiv1 "k8s.io/api/core/v1"
